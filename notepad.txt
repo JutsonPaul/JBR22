@@ -1,0 +1,145 @@
+
+  return (
+    <>
+      <Nav />
+      <h2>Mandi's</h2>
+      <hr/>
+      <div className="grid-fluid mt-3">
+        <div className="row" style={{ margin: "left" }}>
+          <div className="col-sm-4 p-3 bg-primary text-white" style={{ height: "100px", width: "75%", margin: "5px", align: "centre" }}>Chicken Mandi</div>
+          <div className="col-sm-8 p-3 bg-dark text-white" style={{ height: "100px", width: "75%", margin: "5px" }}>Mutton Mandi</div>
+          <div className="col-sm-8 p-3 bg-dark text-white" style={{ height: "100px", width: "75%", margin: "5px" }}>Kaadai Mandi</div>
+          <div className="selectdiv" >
+          <select className="select" style={{ height: "35px", width: "60%", margin: "5px"}} >
+            <option className="dropdown-item" href="#">1</option>
+            <option className="dropdown-item" href="#">2</option>
+            <option className="dropdown-item" href="#">3</option>
+            <option className="dropdown-item" href="#">4</option>
+            <option className="dropdown-item" href="#">5</option>
+            <option className="dropdown-item" href="#">6</option>
+            <option className="dropdown-item" href="#">7</option>
+            <option className="dropdown-item" href="#">8</option>
+            <option className="dropdown-item" href="#">9</option>
+            <option className="dropdown-item" href="#">10</option>
+         </select>
+         <button className="btn btn-success" style={{margin:"1px"}}>+</button>
+         <button className="btn btn-success">-</button>
+         </div>
+         <div className="dropdown">
+          <a className="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Qty</a>
+          <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a className="dropdown-item" href="#">1</a></li>
+            <li><a className="dropdown-item" href="#">2</a></li>
+            <li><a className="dropdown-item" href="#">3</a></li>
+          </ul>
+        </div>
+        <div className="dropdown">
+          <a className="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Qty</a>
+          <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a className="dropdown-item" href="#">1</a></li>
+            <li><a className="dropdown-item" href="#">2</a></li>
+            <li><a className="dropdown-item" href="#">3</a></li>
+          </ul>
+        </div>
+        </div>
+        <div className="row" style={{ margin: "left" }}>
+          <div className="col-sm-4 p-3 bg-primary text-white" style={{ height: "100px", width: "75%", margin: "5px" }}>Prawn Mandi</div>
+          <div className="col-sm-8 p-3 bg-dark text-white" style={{ height: "100px", width: "75%", margin: "5px" }}>Fish Mandi</div>
+          <div className="col-sm-8 p-3 bg-dark text-white" style={{ height: "100px", width: "75%", margin: "5px" }}>Crab Mandi</div>
+          <div className="dropdown">
+          <a className="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Qty</a>
+          <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a className="dropdown-item" href="#">1</a></li>
+            <li><a className="dropdown-item" href="#">2</a></li>
+            <li><a className="dropdown-item" href="#">3</a></li>
+          </ul>
+        </div>
+        <div className="dropdown">
+          <a className="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Qty</a>
+          <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a className="dropdown-item" href="#">1</a></li>
+            <li><a className="dropdown-item" href="#">2</a></li>
+            <li><a className="dropdown-item" href="#">3</a></li>
+          </ul>
+        </div>
+        <div className="dropdown">
+          <a className="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Qty</a>
+          <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a className="dropdown-item" href="#">1</a></li>
+            <li><a className="dropdown-item" href="#">2</a></li>
+            <li><a className="dropdown-item" href="#">3</a></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+      <h2>Starters</h2>
+      <hr/>
+      <div className="grid-fluid mt-3">
+        <div className="row" style={{ margin: "left" }}>
+          <div className="col-sm-4 p-3 bg-primary text-white" style={{ height: "100px", width: "75%", margin: "5px", align: "centre" }}>Chicken Mandi</div>
+          <div className="col-sm-8 p-3 bg-dark text-white" style={{ height: "100px", width: "75%", margin: "5px" }}>Mutton Mandi</div>
+          <div className="col-sm-8 p-3 bg-dark text-white" style={{ height: "100px", width: "75%", margin: "5px" }}>Kaadai Mandi</div>
+        <div className="dropdown">
+          <a className="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Qty</a>
+          <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a className="dropdown-item" href="#">1</a></li>
+            <li><a className="dropdown-item" href="#">2</a></li>
+            <li><a className="dropdown-item" href="#">3</a></li>
+          </ul>
+        </div>
+        <div className="dropdown">
+          <a className="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Qty</a>
+          <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a className="dropdown-item" href="#">1</a></li>
+            <li><a className="dropdown-item" href="#">2</a></li>
+            <li><a className="dropdown-item" href="#">3</a></li>
+          </ul>
+        </div>
+        <div className="dropdown">
+          <a className="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Qty</a>
+          <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a className="dropdown-item" href="#">1</a></li>
+            <li><a className="dropdown-item" href="#">2</a></li>
+            <li><a className="dropdown-item" href="#">3</a></li>
+          </ul>
+        </div>
+        </div>
+        <div className="row" style={{ margin: "left" }}>
+          <div className="col-sm-4 p-3 bg-primary text-white" style={{ height: "100px", width: "75%", margin: "5px" }}>Prawn Mandi</div>
+          <div className="col-sm-8 p-3 bg-dark text-white" style={{ height: "100px", width: "75%", margin: "5px" }}>Fish Mandi</div>
+          <div className="col-sm-8 p-3 bg-dark text-white" style={{ height: "100px", width: "75%", margin: "5px" }}>Crab Mandi</div>
+          <div className="dropdown">
+          <a className="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Qty</a>
+          <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a className="dropdown-item" href="#">1</a></li>
+            <li><a className="dropdown-item" href="#">2</a></li>
+            <li><a className="dropdown-item" href="#">3</a></li>
+          </ul>
+        </div>
+        <div className="dropdown">
+          <a className="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Qty</a>
+          <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a className="dropdown-item" href="#">1</a></li>
+            <li><a className="dropdown-item" href="#">2</a></li>
+            <li><a className="dropdown-item" href="#">3</a></li>
+          </ul>
+        </div>
+        <div className="dropdown">
+          <a className="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Qty</a>
+          <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a className="dropdown-item" href="#">1</a></li>
+            <li><a className="dropdown-item" href="#">2</a></li>
+            <li><a className="dropdown-item" href="#">3</a></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+      <hr/>
+      <br/>
+      <div id="po" style={{align:"absolute"}}>
+      <button className="btn btn-danger" style={{margin:"1px"}}>Place Order</button>
+      </div>
+      <br/>
+      <br/>
+       </>
+  );

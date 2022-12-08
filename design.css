@@ -1,0 +1,232 @@
+/* padding to center text */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+#row {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 20px;
+    font-size: 1em;
+    text-align: center;
+    min-height:100%;
+    overflow-x:hidden; 
+   }
+
+   #odrow {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    font-size: 1em;
+    margin-right: 20%;
+    min-height:100%;
+    overflow-x:hidden; 
+   }   
+
+   #podbtrow {
+    display: grid;
+    grid-template-columns: auto auto auto;
+   }
+   
+   #billrow {
+    display: grid;
+    grid-template-columns: auto auto;
+   }
+
+#tdbt{
+   border-style: solid; border-color: black; border-width : medium; width: 120px;height: 70px; padding: 20px;font-weight: bold;
+ }   
+
+ #td{
+    border-style: solid; border-color: black; border-width : medium;
+  }
+
+
+#podbutton{
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    width:120px;
+    height:40px;
+    left: 40px;  
+    top:10px;
+    margin-right: 5px; 
+    margin-bottom: 5px;    
+}
+
+
+#pod{
+        font-size: 1em;
+        text-align: center;
+        
+}   
+   
+#nav{
+    background-color: #682817;
+    /* #0C0A3E */
+}
+.dropdown{
+    font-size: 1em;
+    left: -10px;
+    text-align: center;
+}
+/*     
+    div.ribbon {
+         background-color: #c92020;
+}
+
+div.ribbon:before,
+div.ribbon:after {
+  top: 6px;
+  z-index: -15;
+}
+
+div.ribbon:before {
+  border-color: #17bb6e #17bb6e #17bb6e transparent;
+  border-width: 19px;
+  left: -25px;
+}
+
+div.ribbon:after {
+  border-color: #17bb6e transparent #17bb6e #17bb6e;
+  border-width: 19px;
+  right: -25px;
+} */
+
+#pod-th{
+  border-style : solid;
+  border-color: black; 
+  border-width:medium; 
+  background-color: white;
+}
+
+#select{
+    font-size: 1em;
+    position: relative;
+    top:20px;
+    left: 55px;
+    width: 160px;
+    height: 200px;
+    text-align: center;
+    }
+/* #selopt{
+    background-color:  #2196F3;
+    ;
+}     */
+#table{
+    text-align: center;
+}
+#plus{
+    position: relative;
+    left: 880px;   
+}
+#select{
+    font-size: 1em;
+    text-align: center;
+    
+}
+
+@font-face {
+    font-family: 'Sofia';
+    font-style: normal;
+    font-weight: 400;
+    /* src: url('Sofia.woff2') format('woff2'); */
+    src: url('Pacifico-Regular.ttf') format('woff2');
+
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+#po{
+    font-size: 1em;
+    text-align: center;
+}
+
+#bg{
+    background-image: url('R3.jpg');
+    background-size:100%;
+    
+}
+
+@media print
+   {
+      p.bodyText {font-family:georgia, times, serif;}
+      .noprint
+      {
+        display:none
+      }
+   }
+
+#bbg{
+  background-image: url('R3.jpg');
+}
+
+#fg
+{
+    background-image: url('food.png');
+    
+}
+
+#c{
+    position: sticky;
+    text-align: center;
+    width: 200px;
+    height: 20px;
+    line-height:100px;
+    background-color: #682817; 
+   /* background-color: #9C27B0;  #E91E63;  #5E35B1; #774040;  ** #673AB7 ** #e4562b; */
+}
+#eid{
+    position: relative;
+    left: 0px;
+}
+
+
+.btn-text{
+        -ms-transform: skewX(20deg); /* IE 9 */
+        -webkit-transform: skewX(20deg); /* Safari */
+        transform: skewX(20deg);
+        }
+
+#price{
+            height: 0.2em;
+            -ms-transform: skewX(20deg); /* IE 9 */
+            -webkit-transform: skewX(20deg); /* Safari */
+            transform: skewX(20deg);
+        }
+
+.card {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;  
+}
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    /* background-color: #000; */
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+#selectpo{
+    left: 0%;
+    font-size: 1em;
+    text-align: center;
+}
+
